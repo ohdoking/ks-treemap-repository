@@ -2,7 +2,7 @@
   <div id="app">
     <div class="nav">
       <RouterLink to="/">Home</RouterLink> |
-      <RouterLink to="/world-population">World Population</RouterLink> |
+      <RouterLink to="/stock-market-map">Stock Market Map</RouterLink> |
     </div>
     <router-view />
   </div>

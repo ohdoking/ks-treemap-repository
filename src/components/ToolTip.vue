@@ -36,7 +36,7 @@ export default {
         .text(this.item.current)
       tooltip
         .select('.tt-value')
-        .text(`${this.label}${format(this.item.value)}`)
+        .text(`${this.label}${format(this.item.value)}${this.item.unit}`)
 
       const tooltipElement = tooltip.node().getBoundingClientRect()
       const { height } = tooltipElement

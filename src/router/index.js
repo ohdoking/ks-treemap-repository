@@ -11,9 +11,9 @@ const routes = [
     component: Home
   },
   {
-    path: '/world-population',
-    name: 'world-population',
-    component: () => import('../views/WorldPopulation')
+    path: '/stock-market-map',
+    name: 'stock-market-map',
+    component: () => import('../views/StockMarketMap')
   }
 ]
 
